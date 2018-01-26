@@ -2,9 +2,9 @@ package MAIORDE3;
 import java.util.Scanner;
 public class PF4 {
 	static int MAIORDE3 (int X, int Y, int Z)
-		    { if (X<Y)
+		    { if (X>Y)
 	        X=Y;
-			 if (X<Z)
+			 if (X>Z)
 			X=Z;
 			return X;}
 		public static void main (String [] args) throws Exception{
@@ -16,7 +16,7 @@ public class PF4 {
 	Y = LerS.nextInt ();
 	System.out.print ("Digite o terceiro valor (Z)");
 	Z = LerS.nextInt ();
-	System.out.println("Maior =" + MAIORDE3 (X, Y, Z));
+	System.out.println("Menor =" + MAIORDE3 (X, Y, Z));
 					}
 		    }
 		
